@@ -56,7 +56,9 @@ ROOT_URLCONF = 'catalog.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            "/home/user/fullstack-nanodegree-vm/vagrant/P3-5U/catalog/templates",
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
